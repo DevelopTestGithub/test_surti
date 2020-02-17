@@ -13,7 +13,7 @@ jobs:
       os: [ubuntu-latest]
   steps:
   - name: Hello world
-    run: echo version file $GITHUB_RUN_NUMBER  with version tag $middle_name $Last_Name!
+    run: echo version file '$GITHUB_RUN_NUMBER'  with version tag 
     env:
       TAG_NAME: v10'$GITHUB_RUN_NUMBER'Beta
   - uses: actions/checkout@v1 
@@ -32,4 +32,4 @@ jobs:
   - name: Create a Release APK
     uses: ncipollo/release-action@v1
     with:
-     artifacts: "build/app/outputs/apk/debug/*.apk"
+       artifacts: "build/app/outputs/apk/debug/*.apk,build/macos/Build/Products/Release/*.app"
