@@ -1,0 +1,274 @@
+{
+    "products": [
+      {
+        "name": "Ajo en Pepa - 1lb",
+        "short_description": null,
+        "full_description": null,
+        "sku": null,
+        "approved_rating_sum": 0,
+        "price": 1.1500,
+        "disable_buy_button": false,
+        "stock_quantity": 10000,
+        "has_tier_prices": false,
+        "manufacturer_ids": [],
+        "category_ids": [
+          29
+        ],
+        "images": [
+          {
+            "id": 59,
+            "picture_id": 82,
+            "position": 0,
+            "src": "https://surti-test-nopc.azurewebsites.net/images/thumbs/0000082_ajo-en-pepa-1lb.jpeg",
+            "attachment": null
+          }
+        ],
+        "has_discounts_applied": false,
+        "discount_ids": null,
+        "id": 49
+      },
+      {
+        "name": "Cebolla Blanca - 1 Atado",
+        "short_description": null,
+        "full_description": null,
+        "sku": null,
+        "approved_rating_sum": 0,
+        "price": 1.0000,
+        "disable_buy_button": false,
+        "stock_quantity": 10000,
+        "has_tier_prices": false,
+        "manufacturer_ids": [],
+        "category_ids": [
+          29
+        ],
+        "images": [
+          {
+            "id": 115,
+            "picture_id": 143,
+            "position": 0,
+            "src": "https://surti-test-nopc.azurewebsites.net/images/thumbs/0000143_cebolla-blanca-1-atado.png",
+            "attachment": null
+          }
+        ],
+        "has_discounts_applied": false,
+        "discount_ids": null,
+        "id": 57
+      },
+      {
+        "name": "Cebolla Paiteña - 1Kg",
+        "short_description": null,
+        "full_description": null,
+        "sku": null,
+        "approved_rating_sum": 0,
+        "price": 0.4500,
+        "disable_buy_button": false,
+        "stock_quantity": 10000,
+        "has_tier_prices": false,
+        "manufacturer_ids": [],
+        "category_ids": [
+          29
+        ],
+        "images": [
+          {
+            "id": 68,
+            "picture_id": 91,
+            "position": 0,
+            "src": "https://surti-test-nopc.azurewebsites.net/images/thumbs/0000091_cebolla-paitena-1kg.jpeg",
+            "attachment": null
+          }
+        ],
+        "has_discounts_applied": false,
+        "discount_ids": null,
+        "id": 58
+      },
+      {
+        "name": "Pimiento Verde - 1Kg",
+        "short_description": null,
+        "full_description": null,
+        "sku": null,
+        "approved_rating_sum": 0,
+        "price": 0.3900,
+        "disable_buy_button": false,
+        "stock_quantity": 10000,
+        "has_tier_prices": false,
+        "manufacturer_ids": [],
+        "category_ids": [
+          29
+        ],
+        "images": [
+          {
+            "id": 92,
+            "picture_id": 116,
+            "position": 0,
+            "src": "https://surti-test-nopc.azurewebsites.net/images/thumbs/0000116_pimiento-verde-1kg.jpeg",
+            "attachment": null
+          }
+        ],
+        "has_discounts_applied": false,
+        "discount_ids": null,
+        "id": 82
+      },
+      {
+        "name": "Tomate Riñon - 1Kg",
+        "short_description": null,
+        "full_description": null,
+        "sku": null,
+        "approved_rating_sum": 0,
+        "price": 0.7600,
+        "disable_buy_button": false,
+        "stock_quantity": 10000,
+        "has_tier_prices": false,
+        "manufacturer_ids": [],
+        "category_ids": [
+          29
+        ],
+        "images": [
+          {
+            "id": 99,
+            "picture_id": 123,
+            "position": 0,
+            "src": "https://surti-test-nopc.azurewebsites.net/images/thumbs/0000123_tomate-rinon-1kg.jpeg",
+            "attachment": null
+          }
+        ],
+        "has_discounts_applied": false,
+        "discount_ids": null,
+        "id": 89
+      },
+      {
+        "name": "Zanahorias (1 Libra)",
+        "short_description": null,
+        "full_description": null,
+        "sku": null,
+        "approved_rating_sum": 0,
+        "price": 0.2000,
+        "disable_buy_button": false,
+        "stock_quantity": 10000,
+        "has_tier_prices": false,
+        "manufacturer_ids": [],
+        "category_ids": [
+          29
+        ],
+        "images": [
+          {
+            "id": 103,
+            "picture_id": 127,
+            "position": 0,
+            "src": "https://surti-test-nopc.azurewebsites.net/images/thumbs/0000127_zanahorias-1-libra.jpeg",
+            "attachment": null
+          }
+        ],
+        "has_discounts_applied": false,
+        "discount_ids": null,
+        "id": 94
+      },
+      {
+        "name": "Limones (16 unidades)",
+        "short_description": null,
+        "full_description": null,
+        "sku": null,
+        "approved_rating_sum": 0,
+        "price": 1.0000,
+        "disable_buy_button": false,
+        "stock_quantity": 10000,
+        "has_tier_prices": false,
+        "manufacturer_ids": [],
+        "category_ids": [
+          29
+        ],
+        "images": [
+          {
+            "id": 112,
+            "picture_id": 140,
+            "position": 0,
+            "src": "https://surti-test-nopc.azurewebsites.net/images/thumbs/0000140_limones-16-unidades.png",
+            "attachment": null
+          }
+        ],
+        "has_discounts_applied": false,
+        "discount_ids": null,
+        "id": 102
+      },
+      {
+        "name": "Tomate de Arbol (10 unidades)",
+        "short_description": null,
+        "full_description": null,
+        "sku": null,
+        "approved_rating_sum": 0,
+        "price": 1.0000,
+        "disable_buy_button": false,
+        "stock_quantity": 10000,
+        "has_tier_prices": false,
+        "manufacturer_ids": [],
+        "category_ids": [
+          29
+        ],
+        "images": [
+          {
+            "id": 113,
+            "picture_id": 141,
+            "position": 0,
+            "src": "https://surti-test-nopc.azurewebsites.net/images/thumbs/0000141_tomate-de-arbol-10-unidades.png",
+            "attachment": null
+          }
+        ],
+        "has_discounts_applied": false,
+        "discount_ids": null,
+        "id": 103
+      },
+      {
+        "name": "Papa Chola - 1Kg",
+        "short_description": null,
+        "full_description": null,
+        "sku": null,
+        "approved_rating_sum": 0,
+        "price": 0.6800,
+        "disable_buy_button": false,
+        "stock_quantity": 10000,
+        "has_tier_prices": false,
+        "manufacturer_ids": [],
+        "category_ids": [
+          29
+        ],
+        "images": [
+          {
+            "id": 114,
+            "picture_id": 142,
+            "position": 0,
+            "src": "https://surti-test-nopc.azurewebsites.net/images/thumbs/0000142_papa-chola-1kg.png",
+            "attachment": null
+          }
+        ],
+        "has_discounts_applied": false,
+        "discount_ids": null,
+        "id": 104
+      },
+      {
+        "name": "Ajo Pelado - 1lb",
+        "short_description": null,
+        "full_description": null,
+        "sku": null,
+        "approved_rating_sum": 0,
+        "price": 1.9800,
+        "disable_buy_button": false,
+        "stock_quantity": 10000,
+        "has_tier_prices": false,
+        "manufacturer_ids": [],
+        "category_ids": [
+          29
+        ],
+        "images": [
+          {
+            "id": 116,
+            "picture_id": 144,
+            "position": 0,
+            "src": "https://surti-test-nopc.azurewebsites.net/images/thumbs/0000144_ajo-pelado-1lb.png",
+            "attachment": null
+          }
+        ],
+        "has_discounts_applied": false,
+        "discount_ids": null,
+        "id": 105
+      }
+    ]
+  }

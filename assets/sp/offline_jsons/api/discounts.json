@@ -1,0 +1,28 @@
+{
+  "discounts": [
+    {
+      "name": "'20% order total' discount",
+      "discount_type": 1,
+      "is_percentage": true,
+      "discount_amount": 0.0000,
+      "discount_percentage": 20.0000,
+      "id": 2
+    },
+    {
+      "name": "Flat 10%",
+      "discount_type": 2,
+      "is_percentage": true,
+      "discount_amount": 0.0000,
+      "discount_percentage": 10.0000,
+      "id": 3
+    },
+    {
+      "name": "Sample discount with coupon code",
+      "discount_type": 2,
+      "is_percentage": false,
+      "discount_amount": 10.0000,
+      "discount_percentage": 0.0000,
+      "id": 1
+    }
+  ]
+}

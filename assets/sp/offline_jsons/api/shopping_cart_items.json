@@ -1,0 +1,149 @@
+{
+    "estimated_time": "TOMORROW",
+    "shopping_carts": [
+        {
+            "product_attributes": [],
+            "quantity": 8,
+            "created_on_utc": "2019-09-03T16:15:00.8477182",
+            "updated_on_utc": "2019-09-03T16:15:00.8477182",
+            "shopping_cart_type": "ShoppingCart",
+            "product_id": 78,
+            "estimated_time": "TODAY",
+            "product": {
+                "name": "Lechuga (1 Libra)",
+                "short_description": null,
+                "full_description": null,
+                "sku": null,
+                "approved_rating_sum": 0,
+                "price": 1.1000,
+                "disable_buy_button": false,
+                "stock_quantity": 10000,
+                "has_tier_prices": false,
+                "manufacturer_ids": [],
+                "category_ids": [
+                    32
+                ],
+                "images": [
+                    {
+                        "id": 87,
+                        "picture_id": 124,
+                        "position": 0,
+                        "src": "https://surti-desarrollo-nopc.azurewebsites.net/images/thumbs/0000124_lechuga-1-libra.jpeg",
+                        "attachment": null
+                    }
+                ],
+                "id": 78
+            },
+            "customer_id": 12,
+            "id": 44
+        },
+        {
+            "product_attributes": [],
+            "quantity": 3,
+            "created_on_utc": "2019-09-03T16:16:55.558618",
+            "updated_on_utc": "2019-09-03T16:17:02.7322842",
+            "shopping_cart_type": "ShoppingCart",
+            "product_id": 60,
+            "estimated_time": "TOMORROW",
+            "product": {
+                "name": "Berenjena (1 Libra)",
+                "short_description": null,
+                "full_description": null,
+                "sku": null,
+                "approved_rating_sum": 0,
+                "price": 1.5000,
+                "disable_buy_button": false,
+                "stock_quantity": 10000,
+                "has_tier_prices": false,
+                "manufacturer_ids": [],
+                "category_ids": [
+                    32
+                ],
+                "images": [
+                    {
+                        "id": 70,
+                        "picture_id": 107,
+                        "position": 0,
+                        "src": "https://surti-desarrollo-nopc.azurewebsites.net/images/thumbs/0000107_berenjena-1-libra.jpeg",
+                        "attachment": null
+                    }
+                ],
+                "id": 60
+            },
+            "customer_id": 12,
+            "id": 45
+        },
+        {
+            "product_attributes": [],
+            "quantity": 9,
+            "created_on_utc": "2019-09-03T17:21:47.5084065",
+            "updated_on_utc": "2019-09-03T17:21:47.5084065",
+            "shopping_cart_type": "ShoppingCart",
+            "product_id": 100,
+            "estimated_time": "TODAY",
+            "product": {
+                "name": "Zanahorias (1 Libra)",
+                "short_description": null,
+                "full_description": null,
+                "sku": null,
+                "approved_rating_sum": 0,
+                "price": 0.4700,
+                "disable_buy_button": false,
+                "stock_quantity": 10000,
+                "has_tier_prices": false,
+                "manufacturer_ids": [],
+                "category_ids": [
+                    32
+                ],
+                "images": [
+                    {
+                        "id": 109,
+                        "picture_id": 146,
+                        "position": 0,
+                        "src": "https://surti-desarrollo-nopc.azurewebsites.net/images/thumbs/0000146_zanahorias-1-libra.jpeg",
+                        "attachment": null
+                    }
+                ],
+                "id": 100
+            },
+            "customer_id": 12,
+            "id": 46
+        },
+        {
+            "product_attributes": [],
+            "quantity": 1,
+            "created_on_utc": "2019-09-03T21:59:05.3335316",
+            "updated_on_utc": "2019-09-03T21:59:05.3335316",
+            "shopping_cart_type": "ShoppingCart",
+            "product_id": 56,
+            "estimated_time": "TODAY",
+            "product": {
+                "name": "Albahaca (0.5 Libras)",
+                "short_description": null,
+                "full_description": null,
+                "sku": null,
+                "approved_rating_sum": 0,
+                "price": 0.6500,
+                "disable_buy_button": false,
+                "stock_quantity": 10000,
+                "has_tier_prices": false,
+                "manufacturer_ids": [],
+                "category_ids": [
+                    32
+                ],
+                "images": [
+                    {
+                        "id": 66,
+                        "picture_id": 103,
+                        "position": 0,
+                        "src": "https://surti-desarrollo-nopc.azurewebsites.net/images/thumbs/0000103_albahaca-05-libras.jpeg",
+                        "attachment": null
+                    }
+                ],
+                "id": 56
+            },
+            "customer_id": 12,
+            "id": 48
+        }
+    ]
+}
