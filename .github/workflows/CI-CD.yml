@@ -15,7 +15,6 @@ jobs:
         flutter-version: '1.9.1+hotfix.6'
         channel: stable
     - run: flutter pub get
-    - run: flutter test
     - run: flutter build apk --debug --split-per-abi
     - name: Push APK to Releases
       uses: ncipollo/release-action@v1
