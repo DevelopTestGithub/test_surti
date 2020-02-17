@@ -1,12 +1,8 @@
 name: Dart CI
 on:
-   create:
-      events:
-        - 'aa'
-      branch_patterns:
-        - pattern: 'dev'
-          include: true
-          source: true        
+ pull_request:
+    branches: 
+       - 'master'         
 jobs:
  build-and-test: 
   runs-on: ${{ matrix.os }}
@@ -32,6 +28,6 @@ jobs:
   - run: flutter build aot
   - run: flutter build apk --debug
   - name: Create a Release APK
-    uses: ncipollo/release-action@v1
+    uses: steebchen/flutter@v1.0.0
     with:
        artifacts: "build/app/outputs/apk/debug/*.apk,build/macos/Build/Products/Release/*.app"
