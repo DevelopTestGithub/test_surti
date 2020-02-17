@@ -6,7 +6,7 @@ import 'dart:io';
 import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
 import 'package:surtiSP/api/cart_api.dart';
-import 'package:surtiSP/Models/consts/texts_es.dart';
+import 'package:surtiSP/models/consts/texts_es.dart';
 import 'package:surtiSP/api/order_api.dart';
 import 'package:surtiSP/models/cart_product.dart';
 import 'package:surtiSP/models/discount.dart';
