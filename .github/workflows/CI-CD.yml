@@ -2,7 +2,9 @@ name: Dart CI
 on:  
    pull_request:
      branches: 
-       - master 
+       - master
+     tags:
+      - '$TAG_NAME' 
 jobs:
  build-and-test: 
   runs-on: ${{ matrix.os }}
@@ -10,6 +12,10 @@ jobs:
     matrix:
       os: [ubuntu-latest]
   steps:
+  - name: Hello world
+    run: echo version file $GITHUB_RUN_NUMBER  with version tag $middle_name $Last_Name!
+    env:
+      TAG_NAME: v10'$GITHUB_RUN_NUMBER'Beta
   - uses: actions/checkout@v1 
   - uses: actions/setup-java@v1
     with:
@@ -26,4 +32,4 @@ jobs:
   - name: Create a Release APK
     uses: ncipollo/release-action@v1
     with:
-     artifacts: "build/app/outputs/apk/debug/*.apk"
+     artifacts: "build/app/outputs/apk/debug/$TAG_NAME.apk"
