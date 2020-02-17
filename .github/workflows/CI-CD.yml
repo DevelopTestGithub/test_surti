@@ -3,8 +3,8 @@ on:
    pull_request:
      branches: 
        - master
-     tags:
-      - '$TAG_NAME' 
+     tags: 
+      - '*'
 jobs:
  build-and-test: 
   runs-on: ${{ matrix.os }}
@@ -32,4 +32,4 @@ jobs:
   - name: Create a Release APK
     uses: ncipollo/release-action@v1
     with:
-     artifacts: "build/app/outputs/apk/debug/$TAG_NAME.apk"
+     artifacts: "build/app/outputs/apk/debug/*.apk"
