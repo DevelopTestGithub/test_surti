@@ -26,7 +26,6 @@ jobs:
   - run: flutter pub get
     # Build :D 
   - run: flutter build aot
-  - run: flutter build apk --debug
   - run: flutter build apk --debug --split-per-abi
   - name: Create a Release APK
     uses: ncipollo/release-action@v1
