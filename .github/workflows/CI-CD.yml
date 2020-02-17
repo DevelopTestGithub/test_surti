@@ -2,9 +2,7 @@ name: Dart CI
 on:
  push:
     branches: 
-     - 'master'
-    tags: 
-     - 'tag'         
+     - 'master'       
 jobs:
  build-and-test: 
   runs-on: ${{ matrix.os }}
