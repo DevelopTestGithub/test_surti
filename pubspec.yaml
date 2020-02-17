@@ -44,7 +44,7 @@ dependencies:
   auto_size_text: ^2.1.0
   url_launcher: 5.1.4
   cached_network_image: 1.1.0
-  shared_preferences: ^0.5.4
+  shared_preferences: 
 
   flutter:
     sdk: flutter
