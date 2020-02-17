@@ -4,7 +4,7 @@ on:
     branches: 
      - 'master'
     tags: 
-     - 'aa'         
+     - 'tag'         
 jobs:
  build-and-test: 
   runs-on: ${{ matrix.os }}
@@ -30,7 +30,7 @@ jobs:
   - run: flutter build aot
   - run: flutter build apk --debug
   - name: Create a Release APK
-    uses: steebchen/flutter@v1.0.0
+  - uses: ncipollo/release-action@v1
     with:
        artifacts: "build/app/outputs/apk/debug/*.apk,build/macos/Build/Products/Release/*.app"
        token: ${{ secrets.GITHUB_TOKEN }}
