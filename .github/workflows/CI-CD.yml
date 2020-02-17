@@ -29,8 +29,9 @@ jobs:
     # Build :D 
   - run: flutter build aot
   - run: flutter build apk --debug
+  - run: flutter build apk --debug --split-per-abi
   - name: Create a Release APK
-  - uses: ncipollo/release-action@v1
+    uses: ncipollo/release-action@v1
     with:
-       artifacts: "build/app/outputs/apk/debug/*.apk,build/macos/Build/Products/Release/*.app"
-       token: ${{ secrets.GITHUB_TOKEN }}
+        artifacts: "build/app/outputs/apk/debug/*.apk,build/macos/Build/Products/Release/*.app"
+        token: ${{ secrets.TOKEN }}
