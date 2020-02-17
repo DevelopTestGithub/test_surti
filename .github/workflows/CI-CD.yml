@@ -2,7 +2,7 @@ name: Dart CI
 on:  
    pull_request:
      branches: 
-       - master 
+       - dev 
 jobs:
  build-and-test: 
   runs-on: ${{ matrix.os }}
