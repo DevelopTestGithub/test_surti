@@ -1,10 +1,12 @@
 name: Dart CI
-on:  
+on:
    create:
-      branches: 
-      - master
-      tags: 
-      - '*'
+      events:
+        - tag
+      branch_patterns:
+        - pattern: 'dev'
+          include: true
+          source: true        
 jobs:
  build-and-test: 
   runs-on: ${{ matrix.os }}
