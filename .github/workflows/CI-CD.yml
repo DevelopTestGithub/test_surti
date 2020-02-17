@@ -1,9 +1,9 @@
 name: Dart CI
 on:  
-   pull_request:
-     branches: 
-       - master
-     tags: 
+   create:
+      branches: 
+      - master
+      tags: 
       - '*'
 jobs:
  build-and-test: 
