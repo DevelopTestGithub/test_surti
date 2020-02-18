@@ -28,18 +28,3 @@ jobs:
         with:
           artifacts: "build/app/outputs/apk/profile/*.apk"
           token: ${{ secrets.TOKEN }}
-      - name: CHECK EMAIL
-        uses: actions/checkout@v1
-      - name: Send mail
-        uses: dawidd6/action-send-mail@v1.3.0
-        with:
-          server_address: ${{secrets.ADDRESS_GMAIL}}
-          server_port: 465
-          username: ${{secrets.MAIL_USER}}
-          password: ${{secrets.MAIL_PASSWORD}}
-          subject: ${{github.repository}}
-          body: ${{matrix.body}}
-          to: jipina_est@utmachala.edu.ec
-          from: JOSIAS PINA
-          # Optional content type:
-          content_type: text/html
