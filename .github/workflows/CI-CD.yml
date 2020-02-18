@@ -1,8 +1,6 @@
 name: Build and Release apk
 on:
   push:
-    branches:
-      - 'dev'
     tags:
       - '*'
 jobs:
