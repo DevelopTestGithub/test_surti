@@ -4,8 +4,8 @@ on:
     tags: 
       - '*'
 jobs:
-  build-Android:
-    name: Build Android apk
+  build:
+    name: Build APK
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v1
@@ -15,16 +15,11 @@ jobs:
       - uses: subosito/flutter-action@v1
         with:
           flutter-version: '1.9.1+hotfix.6'
-          channel: 'stable'
-      - name: Install packages
-        run: |
-          flutter pub get
-      - name: Build apk package
-        run: |
-          flutter build apk --profile
+          channel: stable
+      - run: flutter pub get
+      - run: flutter build apk --profile --split-per-abi
       - name: Push APK to Releases
         uses: ncipollo/release-action@v1
         with:
             artifacts: "build/app/outputs/apk/profile/*.apk"
             token: ${{ secrets.TOKEN }}
-
