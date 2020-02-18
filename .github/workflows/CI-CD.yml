@@ -5,11 +5,6 @@ on:
       - '*'
 jobs:
   build:
-    strategy:
-      matrix:
-        body:
-          - file://build/app/outputs/apk/profile/*.apk
-          - Test of action completed successfully!
     name: Build APK
     runs-on: ubuntu-latest
     steps:
