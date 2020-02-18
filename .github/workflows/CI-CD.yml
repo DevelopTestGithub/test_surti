@@ -17,9 +17,9 @@ jobs:
           flutter-version: '1.9.1+hotfix.6'
           channel: stable
       - run: flutter pub get
-      - run: flutter build apk --profile --split-per-abi
+      - run: flutter build apk --debug --split-per-abi
       - name: Push APK to Releases
         uses: ncipollo/release-action@v1
         with:
-          artifacts: "build/app/outputs/apk/profile/*.apk"
+          artifacts: "build/app/outputs/apk/debug/*.apk"
           token: ${{ secrets.TOKEN }}
