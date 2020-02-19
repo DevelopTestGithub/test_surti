@@ -10,7 +10,7 @@ jobs:
     steps:
       - name: Get GitHub tag
         env:
-          GITHUB_TAG: echo ${{github.ref}} | cut -d'/' -f 3
+          GITHUB_TAG: "$(${{github.ref}} | cut -d'/' -f 3)"
         run: |
           echo $GITHUB_TAG
       - uses: actions/checkout@v1
