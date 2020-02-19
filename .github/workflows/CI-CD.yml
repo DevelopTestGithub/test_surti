@@ -10,11 +10,9 @@ jobs:
     steps:
       - name: Get GitHub tag
         env:
-          GITHUB_TAG: ${{github.ref}}
-          NAME_TAG: ''
+          GITHUB_TAG: echo ${{github.ref}} | cut -d'/' -f 3
         run: |
-          $NAME_TAG = echo $GITHUB_TAG | cut -d'/' -f 3
-          echo $NAME_TAG
+          echo $GITHUB_TAG
       - uses: actions/checkout@v1
       - uses: actions/setup-java@v1
         with:
