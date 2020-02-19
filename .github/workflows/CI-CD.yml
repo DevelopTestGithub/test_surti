@@ -8,9 +8,7 @@ jobs:
     name: Build APK
     runs-on: ubuntu-latest
     steps:
-      - env:
-          REFERENCE: ''
-      - run: $REFERENCE = echo ${{github.ref}} | cut -d'/' -f 2
+      - run: echo ${{github.ref | cut -d'/' -f 3}} 
       - uses: actions/checkout@v1
       - uses: actions/setup-java@v1
         with:
